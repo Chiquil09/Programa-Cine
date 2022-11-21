@@ -3,7 +3,7 @@ Programa cine
 1. un cliente tiene una necesidad
 El cliente quiere vender boletos
 
-Visión: Tener un cine organizado, que la aplicación sea funcional, que la aplicación sea fácil de usar.
+Visión: Que la aplicación sea fácil de usar.
 
 Descripción: Crear una herramienta que permita realizar ventas de boletos de cine. Esta herramienta debe permitir dar una cotización, reservas, precios de forma rápida al cliente
 
@@ -16,66 +16,57 @@ Descripción: Crear una herramienta que permita realizar ventas de boletos de ci
     6. El sistema debe aplicar de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)
     7. El sistema debe mostrar el tipo de sala.
     8. se debe poder escoger el costo de los boletos
-    9. se debe poder imprimir fecha y hora, costo, película, en el tiket
-    10. se debe poder 
+    9. se debe poder imprimir: fecha, hora, costo, película, en el boleto
+    10.se debe poder ser fácil de usar,
+    11.
 
 2. Las características se traducen en historias de usuario. 
 Historias de usuario
-    1. Como usuario quisiera saber el costo de mi boleto
-    2. Como usuario quisiera poder ver los horarios disponibles para ver mi película
-    3. Como usuario me gustaría saber que asientos se encuentran disponibles
-    4. Como usuario quisiera poder ver las películas que están disponibles en la cartelera
-    5. Como usuario quisiera poder ver las ofertas disponibles
-    6. Como vendedor quisiera poder ver la capacidad de la sala
-    7. Como usuario quisiera poder ver el número de sala donde se reproducirá la película.
-
+    1. como usuario quisiera poder dar de alta el costo de los boletos para las películas.
+    2. como usuario quisiera poder dar de alta la fecha y hora de la película.
+    3. como usuario quisiera poder dar de alta las película.
+    4. como usuario quisiera poder dar de alta el tipo de sala.
+    5. como usuario quisiera poder listar los asientos disponibles en la sala, donde se va ver la película.
+    6. como usuario quisiera que el sistema aplique de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)
+    7. como usuario quisiera que el sistema muestre el tipo de sala.
+    8. como usuario quisiera ver el costo de los boletos
+    9. como usuario quisiera poder imprimir: fecha, hora, costo, película, en el boleto
+    10.como usuario quisiera que el programa sea fácil de usar,
 
 
 
 3. Las historias de usuario se priorizan.
 
-    • Como usuario quisiera poder ver las películas que están disponibles en la cartelera
-    • Como usuario quisiera saber el costo de mi boleto.
-    • Como usuario quisiera poder ver los horarios disponibles para ver mi película
-    • Como usuario me gustaría saber que asientos se encuentran disponibles.
-    • Como usuario quisiera poder ver las ofertas disponibles.
-    • Como usuario quisiera poder ver el número de la sala en la que se reproducirá la película.
+    • como usuario quisiera poder dar de alta el costo de los boletos para las películas.
+    • como usuario quisiera poder dar de alta la fecha y hora de la película.
+    • como usuario quisiera poder dar de alta las película.
+    • como usuario quisiera poder dar de alta el tipo de sala.
+    • como usuario quisiera poder listar los asientos disponibles en la sala, donde se va ver la película.
+    • como usuario quisiera que el sistema aplique de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)
+    • como usuario quisiera que el sistema muestre el tipo de sala.
+    • como usuario quisiera ver el costo de los boletos
+    • como usuario quisiera poder imprimir: fecha, hora, costo, película, en el boleto
     • Como usuario quisiera poder ver la capacidad de la sala.
-
+    • como usuario quisiera que el programa sea fácil de usar,
 4. Las historias de usuario se modifican o detallan.
-
-    1. Como usuario quisiera poder ver las películas que están disponibles en la cartelera.Debería aparecer las películas que están disponibles con su 
-    respectivo nombre de la película una pequeña descripción de la película y el género al que pertenece la película para que el usuario pueda visualizar
-    cual película es de su agrado.
- 
-    2. Como usuario quisiera saber el costo de mi boleto.Quisiera que cuando me entreguen mi boleto me aparezca su respectivo precio.
-
-    3. Como usuario quisiera poder ver la fecha y hora en la que la se reproducirá película.Se debería poder ver en el ticket la fecha y hora respectiva 
-    mente en la que la película será reproducida. 
-
-    4. Como usuario me gustaría saber que asientos se encuentran disponibles.Quisiera poder ver los asientos disponibles que ay en la sala de igual forma 
-    que me diga su número y que me muestre si el asiento está disponible u ocupado.
-
-    5. Como usuario quisiera poder ver las ofertas disponibles.Debería a ver un apartado donde me muestren las ofertas disponibles que hayan.
-
-    6. Como usuario quisiera poder ver el número de la sala en la que se reproducirá la película.Debería aparecer en el ticket el número de la sala en la 
-    que se reproduce la película.
-
-    7. Como usuario quisiera poder ver la capacidad de la sala. Quisiera poder ver la capacidad de asientos que soporta cada sala. 
     
 5. Las Historias de usuario se estiman de manera relativa.
 
     Historia de usuario
         Puntos de historia de usuario
-            Como usuario quisiera poder ver las películas que están disponibles.5
-            Como usuario quisiera saber el costo de mi boleto.5
-            Como usuario quisiera poder ver la fecha y hora disponibles para ver mi película..3
-            Como usuario me gustaría saber que asientos se encuentran disponibles.2
-            Como usuario quisiera poder ver las ofertas disponibles.2
-            Como usuario quisiera poder ver el número de la sala en la que se reproducirá la película.1
-            Como usuario quisiera poder ver la capacidad de la sala.1
+            • como usuario quisiera poder dar de alta el costo de los boletos para las películas.1h
+            • como usuario quisiera poder dar de alta la fecha y hora de la película.1h
+            • como usuario quisiera poder dar de alta las película.1h
+            • como usuario quisiera poder dar de alta el tipo de sala.1h
+            • como usuario quisiera poder listar los asientos disponibles en la sala, donde se va ver la película.1h
+            • como usuario quisiera que el sistema aplique de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)3h
+            • como usuario quisiera que el sistema muestre el tipo de sala.1h
+            • como usuario quisiera ver el costo de los boletos1h
+            • como usuario quisiera poder imprimir: fecha, hora, costo, película, en el boleto1h
+            • Como usuario quisiera poder ver la capacidad de la sala.2h
+            • como usuario quisiera que el programa sea fácil de usar,4h
             Total 
-            14 puntos de historia de usuario 
+            17 puntos de historia de usuario 
 
 
 6. ¿Cuál es la velocidad del equipo?
@@ -84,15 +75,8 @@ Historias de usuario
 7. Seleccionar las historias que se pueden terminar en el Sprint de acuerdo con la velocidad del equipo.
     Historia de usuario
     Puntos de historia de usuario
-        Como usuario quisiera poder ver las películas que están disponibles.5
-        Como usuario quisiera saber el costo de mi boleto.5
-        Como usuario quisiera poder ver la fecha y hora disponibles para ver mi película.3
-        Como usuario me gustaría saber que asientos se encuentran disponibles.2
-        Como usuario quisiera poder ver las ofertas disponibles.2
-        Como usuario quisiera poder ver el número de la sala en la que se reproducirá la película.1
-        Como usuario quisiera poder ver la capacidad de la sala.1
+    
     Total 
-    14 untos de historia de usuario 
 
 
 
@@ -100,27 +84,30 @@ Historias de usuario
     Historia de usuario
     Puntos de historia de usuario
     Tareas
-    Como usuario quisiera poder ver las películas que están disponibles.5
-        • Anadir el nombre de la película.
-        • Anadir el género de la película.
-        • Anadir una pequeña descripción a la película.
-    Como usuario quisiera saber el costo de mi boleto.5
-        • Anadir el costo del boleto. 
-    Como usuario quisiera poder ver la fecha y hora disponibles para ver mi película.3
-        • Anadir la fecha en que reproducirá la película.
-        • Anadir la hora en que se reproducirá la película. 
-    Como usuario me gustaría saber que asientos se encuentran disponibles.2
-        • Anadir el número de cada asiento.
-        • Crear una validación de los asientos que están ocupados y cuáles no.
-    Como usuario quisiera poder ver las ofertas disponibles.2
-        • Crear un apartado donde se vean disponibles las ofertas.
-        • Validar que cierta cantidad de boletos tienes que comprar para que se te realice una oferta.
-        • Mostrar tipos de ofertas
-    Como usuario quisiera poder ver el número de la sala en la que se reproducirá la película.1
-        • Poner una cierta cantidad de salas que va a haber.
-        • Asignarle un numero especifico a cada sala.
-    Como usuario quisiera poder ver la capacidad de la sala.1
-        • Asignarle un total de asientos que va a tener la sala.
+    • como usuario quisiera poder dar de alta el costo de los boletos para las películas.1h
+        
+    • como usuario quisiera poder dar de alta la fecha y hora de la película.1h
+        
+    • como usuario quisiera poder dar de alta las película.1h
+    
+    • como usuario quisiera poder dar de alta el tipo de sala.1h
+    
+    • como usuario quisiera poder listar los asientos disponibles en la sala, donde se va ver la película.1h
+    
+    • como usuario quisiera que el sistema aplique de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)3h
+    
+    • como usuario quisiera que el sistema muestre el tipo de sala.1h
+    
+    • como usuario quisiera ver el costo de los boletos1h
+    
+    • como usuario quisiera poder imprimir: fecha, hora, costo, película, en el boleto1h
+    
+    • Como usuario quisiera poder ver la capacidad de la sala.2h
+    
+    • como usuario quisiera que el programa sea fácil de usar,4h
+    
+    Total 
+    17 puntos de historia de usuario 
     
 9. Las tareas se estiman en horas.
     Historia de usuario
