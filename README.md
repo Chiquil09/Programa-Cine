@@ -3,9 +3,9 @@ Programa cine
 1. un cliente tiene una necesidad
 El cliente quiere vender boletos
 
-Visión: Que la aplicación sea fácil de usar.
+Visión: Crear una aplicación capaz de gestionar la venta de volétos
 
-Descripción: Crear una herramienta que permita realizar ventas de boletos de cine. Esta herramienta debe permitir dar una cotización, reservas, precios de forma rápida al cliente
+Descripción: Crear una aplicación que permita realizar y gestionar la venta de boletos de cine. Esta herramienta debe permitir dar precios de forma rápida al cliente
 
     **Características:**
 	1. Se debe poder dar de alta el costo de los boletos para las películas.
@@ -13,12 +13,12 @@ Descripción: Crear una herramienta que permita realizar ventas de boletos de ci
     3. Se debe poder dar de alta las película.
     4. se debe poder dar de alta el tipo de sala.
     5. Se debe poder listar los asientos disponibles en la sala, donde se va ver la película.
-    6. El sistema debe aplicar de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)
+    6. El sistema debe aplicar de manera automática los descuentos después de comprar cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)
     7. El sistema debe mostrar el tipo de sala.
-    8. se debe poder escoger el costo de los boletos
-    9. se debe poder imprimir: fecha, hora, costo, película, en el boleto
-    10.se debe poder ser fácil de usar,
-    11.
+    8. se debe poder imprimir: fecha, hora, costo, película, en el boleto
+    9. se debe poder ser fácil de usar,
+    10.debe tener corte de caja
+    11.control de los asientos(no se deben repetir los asientos)
 
 2. Las características se traducen en historias de usuario. 
 Historias de usuario
@@ -29,10 +29,10 @@ Historias de usuario
     5. como usuario quisiera poder listar los asientos disponibles en la sala, donde se va ver la película.
     6. como usuario quisiera que el sistema aplique de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)
     7. como usuario quisiera que el sistema muestre el tipo de sala.
-    8. como usuario quisiera ver el costo de los boletos
-    9. como usuario quisiera poder imprimir: fecha, hora, costo, película, en el boleto
-    10.como usuario quisiera que el programa sea fácil de usar,
-
+    8. como usuario quisiera poder imprimir: fecha, hora, costo, película, en el boleto
+    9. como usuario quisiera que el programa sea fácil de usar,
+    10.debe tener corte de caja
+    11.control de los asientos(no se deben repetir los asientos)
 
 
 3. Las historias de usuario se priorizan.
@@ -44,7 +44,6 @@ Historias de usuario
     • como usuario quisiera poder listar los asientos disponibles en la sala, donde se va ver la película.
     • como usuario quisiera que el sistema aplique de manera automática los descuentos después de compra cierta cantidad de boletos (por cada 5 se aplica un descuento del 10%)
     • como usuario quisiera que el sistema muestre el tipo de sala.
-    • como usuario quisiera ver el costo de los boletos
     • como usuario quisiera poder imprimir: fecha, hora, costo, película, en el boleto
     • Como usuario quisiera poder ver la capacidad de la sala.
     • como usuario quisiera que el programa sea fácil de usar,
