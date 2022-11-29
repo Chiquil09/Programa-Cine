@@ -1,7 +1,2 @@
-/*C4*/SET SCHEMA PUBLIC
+/*C3*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C5*/SET SCHEMA PUBLIC
-create table Cine.Boleto (id varchar(32) not null, costo integer, pelicula_id integer not null, primary key (id))
-SET SCHEMA CINE
-INSERT INTO BOLETO VALUES('1',50,1)
-COMMIT

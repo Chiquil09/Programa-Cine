@@ -28,5 +28,4 @@ public class Pelicula{
     @Column(length = 32)
     String foto;
     
-    
 }
