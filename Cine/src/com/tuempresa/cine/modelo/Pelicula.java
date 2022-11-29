@@ -12,6 +12,9 @@ import lombok.*;
 public class Pelicula{
 	@Id
 	@Column(length = 32)
+	int id;
+	
+	@Column(length = 32)
 	String nombre;
 	
     @Column(length =32)
@@ -24,5 +27,6 @@ public class Pelicula{
     @Files
     @Column(length = 32)
     String foto;
-     
+    
+    
 }
