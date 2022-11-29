@@ -5,17 +5,15 @@ import javax.persistence.*;
 import lombok.*;
 
 @Entity @Getter @Setter
-public class Boleto {
+public class Sala {
 	@Id
 	@Column(length = 32)
 	String id;
 	
 	@Column(length = 32)
-	int costo;
+	String tipo;
 	
-	@ManyToOne(fetch=FetchType.LAZY, optional=false)
+	@ManyToOne(fetch=FetchType.LAZY)
 	Pelicula pelicula;
 	
-	@Embedded
-	Asiento asiento;
 }
