@@ -1,20 +1,7 @@
 /*C4*/SET SCHEMA PUBLIC
 DISCONNECT
 /*C5*/SET SCHEMA PUBLIC
-create table Cine.Asiento (id varchar(32) not null, num_asiento varchar(32), primary key (id))
-alter table CINE.BOLETOS add column asiento varchar(32)
-alter table CINE.BOLETOS add column costo numeric(19,2)
-alter table CINE.PELICULA add column id varchar(32) not null
-alter table CINE.PELICULA add column hora time
-create table Cine.Sala (id varchar(32) not null, tipo varchar(32), primary key (id))
-SET SCHEMA CINE
-INSERT INTO ASIENTO VALUES('23456',NULL)
-COMMIT
-INSERT INTO BOLETOS VALUES('2345',NULL,NULL,NULL,'2',200.00)
-COMMIT
-INSERT INTO GENERO VALUES('4590','Terror')
-COMMIT
-INSERT INTO PELICULA VALUES('El Chiquil 2',NULL,NULL,'4209','12:30:00')
-COMMIT
-INSERT INTO SALA VALUES('2','Premium')
-COMMIT
+create table Cine.Clientes (id varchar(32) not null, edad integer, genero varchar(20), nombre varchar(32), primary key (id))
+create table Cine.Direccion (id varchar(255) not null, calle varchar(32), colonia varchar(32), estado varchar(32), municipio varchar(32), pais varchar(32), primary key (id))
+alter table CINE.PELICULA add column genero_oid varchar(32)
+alter table Cine.Pelicula add constraint FK3akss8gokr1qoskjckl94eipu foreign key (genero_oid) references Cine.Genero
