@@ -2,6 +2,8 @@ package com.tuempresa.cine.modelo;
 
 import javax.persistence.*;
 
+import org.openxava.annotations.*;
+
 import lombok.*;
 
 @Entity @Getter @Setter
@@ -16,6 +18,7 @@ public class Boleto {
 	@ManyToOne(fetch=FetchType.LAZY, optional=false)
 	Pelicula pelicula;
 	
-	@Embedded
-	Asiento asiento;
+	@Embedded @NoFrame
+	Asientos asiento;
+	
 }
