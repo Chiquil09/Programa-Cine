@@ -11,9 +11,6 @@ import lombok.*;
 @Entity @Getter @Setter
 public class Pelicula{
 	@Id
-	@Column(length =32)
-	String id;
-	
 	@Column(length = 32)
 	String nombre;
 	
@@ -22,6 +19,10 @@ public class Pelicula{
     
     @ManyToOne(fetch = FetchType.LAZY,optional = true)
     @DescriptionsList
-    Genero genero;
+    Descripcion descripcion;
+    
+    @Files
+    @Column(length = 32)
+    String foto;
      
 }
