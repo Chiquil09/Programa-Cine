@@ -1,9 +1,10 @@
 package com.tuempresa.cine.modelo;
 
-import java.sql.*;
-import java.time.*;
+import java.math.*;
 
 import javax.persistence.*;
+
+import org.openxava.annotations.*;
 
 import lombok.*;
 
@@ -13,11 +14,10 @@ public class Boletos  {
 @Column(length=32)
 String id;
 
+@Money
+BigDecimal costo;
+
 @Column(length=32)
-String sala;
+String asiento;
 
-LocalDate fecha;
-
-@Column(length=5)
-Time hora;
 }

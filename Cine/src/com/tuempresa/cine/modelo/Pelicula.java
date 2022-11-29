@@ -1,22 +1,23 @@
 package com.tuempresa.cine.modelo;
 
-import javax.persistence.*;
+import java.sql.*;
 
-import org.openxava.annotations.*;
+import javax.persistence.*;
 
 import lombok.*;
 
 @Entity @Getter @Setter
 public class Pelicula{
 	@Id
+	@Column(length =32)
+	String id;
+	
 	@Column(length = 32)
 	String nombre;
 	
-	@File
-	@Column(length = 32)
-	String fotografia;
+
 	
-	@ManyToOne(fetch = FetchType.LAZY,optional=true)
-	@DescriptionsList
-	Descripcion descripcion;
+    @Column(length =32)
+    Time hora;
+     
 }
