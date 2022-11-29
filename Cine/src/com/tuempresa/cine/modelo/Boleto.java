@@ -16,4 +16,6 @@ public class Boleto {
 	@ManyToOne(fetch=FetchType.LAZY, optional=false)
 	Pelicula pelicula;
 	
+	@Embedded
+	Asiento asiento;
 }
