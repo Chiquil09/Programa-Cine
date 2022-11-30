@@ -6,6 +6,7 @@ import lombok.*;
 
 @Entity @Getter @Setter
 public class Boleto {
+	
 	@Id
 	@Column(length = 32)
 	String id;
@@ -16,11 +17,10 @@ public class Boleto {
 	@ManyToOne(fetch=FetchType.LAZY, optional=false)
 	Pelicula pelicula;
 	
-
 	@Column(length = 10)
 	int idAsiento;
 	
 	@Column(length = 10)
-	int NumeAsientos;
+	int asientos;
 	
 }
