@@ -11,7 +11,7 @@ import lombok.*;
 @Entity @Getter @Setter
 @View(members = "id, nombre, hora;" +
         "descripcion;"+
-        "foto"
+        "foto" + "gen"
         )
 public class Pelicula{
 	@Id
