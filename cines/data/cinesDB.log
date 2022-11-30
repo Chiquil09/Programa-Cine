@@ -1,0 +1,27 @@
+/*C1*/SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
+COMMIT
+/*C2*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C3*/SET SCHEMA PUBLIC
+CREATE SCHEMA CINES AUTHORIZATION SA
+create table cines.Asiento (id varchar(32) not null, numAsiento varchar(32), primary key (id))
+create table cines.Boleto (id varchar(32) not null, asiento varchar(32), costo numeric(19,2), primary key (id))
+create table cines.Genero (id varchar(32) not null, genero varchar(32), primary key (id))
+create table cines.IMAGES (ID varchar(255) not null, GALLERY varchar(255), IMAGE varbinary(16777216), primary key (ID))
+create table cines.OXDISCUSSIONCOMMENTS (id varchar(32) not null, comment clob(16777216), discussionId varchar(32), time timestamp, userName varchar(30), primary key (id))
+create table cines.Pelicula (id varchar(32) not null, hora time, nombre varchar(32), primary key (id))
+create table cines.Sala (id varchar(32) not null, tipo varchar(32), primary key (id))
+create table cines.TuPrimeraEntidad (id varchar(32) not null, descripcion varchar(50), fecha date, importe numeric(19,2), primary key (id))
+create index cines.IDXbhlx4vunn24ym1tbrlgq8g30m on cines.OXDISCUSSIONCOMMENTS (discussionId)
+SET SCHEMA CINES
+INSERT INTO ASIENTO VALUES('38848','2')
+COMMIT
+INSERT INTO BOLETO VALUES('12','2',300.00)
+COMMIT
+INSERT INTO GENERO VALUES('5949','Terror')
+COMMIT
+INSERT INTO PELICULA VALUES('5448','12:30:00','Chiquil El Despertar')
+COMMIT
+INSERT INTO SALA VALUES('1','Lujo')
+COMMIT
