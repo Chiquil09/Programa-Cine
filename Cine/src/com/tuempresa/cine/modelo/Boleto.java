@@ -2,9 +2,15 @@ package com.tuempresa.cine.modelo;
 
 import javax.persistence.*;
 
+import org.openxava.annotations.*;
+
 import lombok.*;
 
 @Entity @Getter @Setter
+@View(members = "id, costo, idAsiento;" +
+        "asientos;"+
+        "pelicula"
+        )
 public class Boleto {
 	
 	@Id

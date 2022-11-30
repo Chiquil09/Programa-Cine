@@ -9,6 +9,10 @@ import org.openxava.annotations.*;
 import lombok.*;
 
 @Entity @Getter @Setter
+@View(members = "id, nombre, hora;" +
+        "descripcion;"+
+        "foto"
+        )
 public class Pelicula{
 	@Id
 	@Column(length = 32)
