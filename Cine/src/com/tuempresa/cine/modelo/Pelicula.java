@@ -24,8 +24,7 @@ public class Pelicula{
     @DescriptionsList
     Descripcion descripcion;
     
-   
-    
+  
     
     @Files
     @Column(length = 32)
