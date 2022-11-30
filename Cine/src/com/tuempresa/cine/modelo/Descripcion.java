@@ -20,4 +20,5 @@ public class Descripcion {
 	
 	@Column(length=50)
 	String descripcion;
+	
 }

@@ -7,9 +7,9 @@ import lombok.*;
 @Embeddable @Getter @Setter
 public class Asientos {
 
-	@Column(length = 10)
-	String id;
+	@Column(length = 30)
+	int id;
 	
-	@Column(length = 10)
-	String asientos;
+	@Column(length = 30)
+	int asientos;
 }
